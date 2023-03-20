@@ -1,0 +1,21 @@
+.page{
+    background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+}
+.title{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.foods{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    padding: 0 10px 30px;
+}
