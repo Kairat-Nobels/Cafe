@@ -25,12 +25,12 @@ function Calculator({totalSumma, calc, setCalc})
                     <button onClick={()=>setSoms(20)}>20</button>
                     <button onClick={()=>setSoms(50)}>50</button>
                     <button onClick={()=>setSoms(100)}>100</button>
-                    <button onClick={()=>setSoms(100)}>150</button>
+                    <button onClick={()=>setSoms(150)}>150</button>
                     <button onClick={()=>setSoms(200)}>200</button>
                     <button onClick={()=>setSoms(300)}>300</button>
                     <button onClick={()=>setSoms(500)}>500</button>
                     <button onClick={()=>setSoms(1000)}>1000</button>
-                    <button onClick={()=>setSoms(1000)}>2000</button>
+                    <button onClick={()=>setSoms(2000)}>2000</button>
                 </div>
                 
                 <div className={styles.cashBack}>
