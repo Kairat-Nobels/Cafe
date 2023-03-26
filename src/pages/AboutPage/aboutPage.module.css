@@ -1,5 +1,10 @@
 .page{
     background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    
 }
 .title{
     font-size: 24px;

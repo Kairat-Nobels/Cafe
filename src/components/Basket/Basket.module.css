@@ -11,7 +11,7 @@
     border-radius: 50%;
     background: silver;
     overflow: hidden;
-    min-width: 80px;
+    width: 120px;
     height: 80px;
 }
 .images img {

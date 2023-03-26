@@ -1,28 +1,22 @@
 .home{
-    /* background: #fff; */
     margin-bottom: 40px;
 }
-.home .title{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 24px;
-    line-height: 28px;
-}
+
 .foods{
-    border: 4px solid #020202;
-    background: #483737;
+    /* border: 4px solid #020202; */
+    /* background: #483737; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: normal;
-    width: 80%;
+    /* width: 80%; */
     gap: 30px;
     margin: 10px auto;
-    max-height: 500px;
-    overflow: scroll;
+    /* max-height: 500px; */
+    /* overflow: scroll; */
     padding: 20px 10px;
-    overflow-x: hidden;
-    scrollbar-width: 0px;
+    /* overflow-x: hidden; */
+    /* scrollbar-width: 0px; */
 }
 .foods::-webkit-scrollbar {
     width: 10px;
@@ -53,7 +47,10 @@
     padding: 0 20px;
     margin: 20px auto;
 }
-
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
 /* cassa */
 
 .cassa{
@@ -111,8 +108,8 @@
 
 .filter ul{
     list-style-type: none;
-    max-width: 660px;
-    margin: 20px auto 10px;
+    max-width: 840px;
+    margin: -20px auto 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -120,12 +117,14 @@
 }
 
 .filter li {
-    border: 2px solid #232323;
-    background-color: #f9f9f9;
+    /* border: 2px solid #232323;
+    background-color: #f9f9f9; */
     color:#232323;
     padding: 10px 20px;
-    border-radius: 30px;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
     cursor: pointer;
     transition: 0.1s ease-in-out;
 }
@@ -136,8 +135,10 @@
     background-color: darken(#f9f9f9, 5%);
 }
 .filter  li.CategoryActive {
-    background-color: #282828;
-    color: #fff;
+    /* background-color: #282828; */
+    /* border-radius: 30px; */
+    color: #858585;
+    border-bottom: 1px solid #232323;
 }
 @media (max-width: 500px) {
    .filter{

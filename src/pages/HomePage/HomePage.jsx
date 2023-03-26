@@ -24,7 +24,6 @@ function HomePage()
             })
     }, [])
     
-    
     const categories = ['Завтраки','Блюда','Напитки', 'Десерты']
     const dispatch = useDispatch();
     let count = 0;
@@ -49,14 +48,12 @@ function HomePage()
         totalSumma = s.basket.totalAmount
             return transformedCartItems;
     })
-    console.log(data1);
     return (
         <>
             {
                 calc ? <Calculator totalSumma={totalSumma} calc={calc} setCalc={setCalc} />
                     :
-                <div className={classes.home}>
-                    <h2 className={classes.title}>Меню</h2>
+                    <div className={classes.home}>
                     <div className={classes.filter}>      
                         <ul>
                             {categories.map((value, index) => <li onClick={()=>setCategory(index)} key={index} className={category === index ? classes.CategoryActive : ''}>{value}</li>)}
@@ -68,7 +65,7 @@ function HomePage()
                         }
                     
                     </div>
-                    <h2 className={classes.title}>Корзина</h2>
+                    <h2 id="basket" className={classes.title}>Корзина</h2>
                     <div className={classes.basket}>
                         {
                             totalSumma == 0 ? <p>корзина пуста</p> :
@@ -84,7 +81,6 @@ function HomePage()
                             <button disabled={totalSumma <= 0 ? true : false} onClick={()=>setCalc(!calc)}>Оплатить</button>
                         </div >
                     </div>
-                
                 </div>
             }
             

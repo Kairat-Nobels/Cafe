@@ -1,0 +1,71 @@
+.IntroPage{
+    height: calc(100vh - 140);
+}
+.text {
+    margin-top: 80px;
+}
+.text h1{
+    max-width: 628px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #3DA000;
+    margin-bottom: 30px;
+}
+.text p{
+    max-width: 544px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    z-index: 1;
+}
+.image img{
+    width: 100%;
+}
+.green{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #3DA000;
+    width: 365px;
+    height: 100%;
+}
+.contacts{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 20px;
+    border-left: 2px solid #545454;
+}
+.contacts a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    transition: .3s;
+}
+.contacts a:hover{
+    transform: scale(1.2);
+}
+.contacts a div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contacts div img{
+    width: 24px;
+}
+.contacts div span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #545454;
+}

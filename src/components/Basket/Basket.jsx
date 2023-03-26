@@ -7,7 +7,6 @@ import styles from './Basket.module.css';
 function Basket({ product })
 {
     const dispatch = useDispatch();
-    console.log(product.title);
     return (
         <div className={styles.basketFood}>
             <div className={styles.images}><img src={product.img} alt="image" /></div>
