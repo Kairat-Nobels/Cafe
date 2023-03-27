@@ -3,20 +3,13 @@
 }
 
 .foods{
-    /* border: 4px solid #020202; */
-    /* background: #483737; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: normal;
-    /* width: 80%; */
     gap: 30px;
     margin: 10px auto;
-    /* max-height: 500px; */
-    /* overflow: scroll; */
     padding: 20px 10px;
-    /* overflow-x: hidden; */
-    /* scrollbar-width: 0px; */
 }
 .foods::-webkit-scrollbar {
     width: 10px;
@@ -53,7 +46,7 @@
 /* cassa */
 
 .cassa{
-    max-width: 900px;
+    width: 90%;
     margin: 20px auto 0;
     border-top: 3px solid #483737;
     padding: 20px;
@@ -73,15 +66,25 @@
     justify-content: space-between;
     gap: 20px;
 }
+.cassa .actions p{
+    font-size: 18px;
+    color: #d41414;
+    font-weight: 600;
+    margin-left: -110px;
+}
 .cassa .input{
     display: flex;
     gap: 15px;
     align-items: center;
 
 }
+.cassa .input span{
+    font-weight: 600;
+    font-size: 18px;
+}
 .cassa .input input{
     width: 120px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     height: 50px;
     font-size: 22px;
@@ -96,31 +99,27 @@
   margin: 0;
 }
 .actions button{
-    font-size: 22px;
-    font-weight: 600;
-    border-radius: 20px;
-    width: 200px;
-    border: 2px solid rgb(235, 99, 15);
-    height: 60px;
-    background: #fff;
-    color: rgb(235, 99, 15);
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
     cursor: pointer;
+    transition: .3s;
+    background: #757E85;
+    border: none;
+    border-radius: 10px;
     transition: .3s;
 }
 .actions button:hover{
-    background: rgb(235, 99, 15);
-    color: #fff;
+    transform: scale(1.1);
 }
 .actions button:disabled{
     background: silver;
+    border: 2px solid #ba2d2d;
     cursor: not-allowed;
 }
-.actions .reset{
-    background-color: #3f3f3f;
-    border-color: #3f3f3f;
-    color: #fff;
-    ;
-}
+
 .actions .reset:hover{
     background: #ba2d2d;
     color: #fff;
@@ -136,10 +135,17 @@
     align-items: center;
     gap: 10px;
 }
-
+.actions .pay{
+    background: #646cff;
+}
+.actions .pay:hover{
+    background: #3DA000;
+}
+.actions .pay:disabled:hover, .actions .reset:disabled:hover{
+    background: silver;
+    transform: scale(1);
+}
 .filter li {
-    /* border: 2px solid #232323;
-    background-color: #f9f9f9; */
     color:#232323;
     padding: 10px 20px;
     font-style: normal;
@@ -156,8 +162,6 @@
     background-color: darken(#f9f9f9, 5%);
 }
 .filter  li.CategoryActive {
-    /* background-color: #282828; */
-    /* border-radius: 30px; */
     color: #858585;
     border-bottom: 1px solid #232323;
 }

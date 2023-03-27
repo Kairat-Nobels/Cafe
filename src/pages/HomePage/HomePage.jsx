@@ -76,14 +76,19 @@ function HomePage()
                             totalSumma > 0 &&
                             <div className={classes.input}>
                                 <h2>Оплата:</h2>
-                                <input placeholder='0' type="number" value={soms > 0 ? soms : ''} onChange={(e) => setSoms(e.target.value)} />
+                                    <input placeholder='0' type="number" value={soms > 0 ? soms : ''} onChange={(e) => setSoms(e.target.value)} />
+                                    <span>сом</span>
                             </div>
                         }
                         <h2>Сумма заказа: {totalSumma} сом</h2>
                         
                            <div className={classes.actions}>
-                                <button className={classes.reset} onClick={() => dispatch(clearCart())}>Сбросить</button>
-                                <button disabled={ (totalSumma > 0 && totalSumma <= soms) ? false : true} onClick={()=>setCalc(!calc)}>Оплатить</button>
+                                <button disabled={totalSumma > 0 ? false : true} className={classes.reset} onClick={() => dispatch(clearCart())}>Сбросить</button>
+                                {
+                                    soms < totalSumma && totalSumma > 0 &&
+                                    <p>Недостаточно средств для оплаты</p>
+                                }
+                                <button className={classes.pay} disabled={ (totalSumma > 0 && totalSumma <= soms) ? false : true} onClick={()=>setCalc(!calc)}>Оплатить</button>
                             </div>
                                 
                         {

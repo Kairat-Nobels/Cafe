@@ -11,7 +11,7 @@ function AboutPage()
         <div className={styles.page}>
             <h2 className={styles.title}>О продуктах</h2>
             <div className={styles.foods}>
-                {data.map(arr => arr.map(el => <AboutFood key={el.id} product={el} />))}
+                {data.map(arr => arr?.map(el => <AboutFood key={el.id} product={el} />))}
             </div>
         </div>
     )

@@ -1,15 +1,8 @@
 import watsapp from '../../assets/images/watsapp.svg'
 import insta from '../../assets/images/insta.svg'
 import styles from './IntroPage.module.css'
-import { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
-import { getAbout } from '../../redux/actions/about'
 function IntroPage()
 {
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(getAbout())
-    },[] )
     
     return (
         <div className={styles.IntroPage}>

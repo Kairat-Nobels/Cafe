@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap');
 .navbar{
-    /* position: fixed;
-    width: 1240px;
-    margin: 0 auto;
-    top: 0;
-    z-index: 3;
-    background: #FFE9E9; */
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -31,15 +24,15 @@
     transition: .3s;
 }
 .navbar ul a:hover {
-    color: #535bf2;   
+    color: #3b44e7;   
     transform: scale(1.102);
 }
 .navbar ul .active{
-    color: #535bf2;
-    border-bottom: 3px solid #646cff;
+    color: #3b44e7;
+    border-bottom: 3px solid #3b44e7;
 }
 .navbar ul .active:hover {
-    color: #535bf2;
+    color: #3b44e7;
 }
 
 .logo{
@@ -58,18 +51,19 @@
 }
 .basketIcon span{
     position: absolute;
-    top: -8px;
-    right: -10px;
+    top: -12px;
+    right: -12px;
     border-radius: 50%;
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     text-align: center;
-    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #232323;
-    font-size: 16px;
+    color: white;
+    font-size: 18px;
     line-height: 20px;
-    background: #757E85;
+    background: #646cff;
 }

@@ -3,11 +3,11 @@
             {
             "id": 1,
             "price": 120,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eaque fuga magnam iure. Tempore eveniet quis itaque recusandae, aliquam totam soluta neque labore. Alias eaque optio quas aliquam maiores?",
+            "description": "Брускетта — классическая итальянская закуска-антипасто, представляющая собой ломтик подсушенного хлеба — например, чиабатты, — поджаренный до легкой корочки и хрустящего состояния. Отличие брускеты от бутерброда заключается в том, что хлеб для брускеты, как правило, поджаривают на сковороде без масла, на решетке или на гриле.",
             "title": "Брускетта",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN6Lq6lBIQ1Tzuy9H0uzDjckWC1V6a-ShV2EiQ061APZ1ODtikukh-3VhboUdQMND-FzJpLj3JmsuHnWEbzaXAFfizSt6HBEymic1IWBJCh3TsF1kOoLemXzALm0Lkgdrd066CGqwwp7QnslLQsPg7RXOjIgl39wUqzSpSgfrPPwbZywaIKit7dHJi/s320/Rectangle%204%20(1).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "1 багет, 200 г лосося, 100 г сливочного сыра, 2 огурца, зелень,  специи."
         },
         {
             "id": 2,

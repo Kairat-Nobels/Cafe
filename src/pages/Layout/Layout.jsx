@@ -1,8 +1,10 @@
-import { Link, NavLink, Outlet } from "react-router-dom"
+import { NavLink, Outlet } from "react-router-dom"
 import styles from './Layout.module.css'
 import logo from '../../assets/images/logo.svg'
 import blackBasketSvg from '../../assets/images/basketDark.svg'
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
+import { useEffect } from "react"
+import { getAbout } from "../../redux/actions/about"
 function Layout()
 {
     let count = 0;
@@ -22,6 +24,11 @@ function Layout()
         }
         return transformedCartItems;
     })
+
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(getAbout())
+    },[] )
     return (    
         <div className="container">
             <nav className={styles.navbar}>
