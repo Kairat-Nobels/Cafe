@@ -12,12 +12,10 @@ html, body{
     margin: 0 auto;
 }
 body{
-    background: #FFE9E9;
+    /* background: #FFE9E9; */
+    background: #E8EEF2;
 }
 .container{
     width: 1240px;
     margin: 0 auto;
 }
-/* .outlet{
-    margin-top: 120px;
-} */

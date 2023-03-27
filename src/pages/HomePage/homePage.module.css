@@ -43,8 +43,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 900px;
-    padding: 0 20px;
+    width: 90%;
     margin: 20px auto;
 }
 .title{
@@ -73,6 +72,28 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+.cassa .input{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.cassa .input input{
+    width: 120px;
+    text-align: left;
+    padding: 10px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 24px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+}
+.cassa input::-webkit-outer-spin-button,
+.cassa input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 .actions button{
     font-size: 22px;
@@ -148,4 +169,22 @@
     .filter ul{
         width: 600px;
     }
+}
+
+.tableTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.tableLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    gap: 18%;
+}
+.tableLeft p{
+    width: 100px;
 }

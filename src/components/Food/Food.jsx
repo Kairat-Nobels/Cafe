@@ -61,7 +61,7 @@ function Food({ product})
                             
                         </div>
                         :
-                        <button className={styles.addBtn} onClick={() => handleAdd()}>Add</button>
+                        <button className={styles.addBtn} onClick={() => handleAdd()}>В корзину</button>
                 }
             </div>
         </div>

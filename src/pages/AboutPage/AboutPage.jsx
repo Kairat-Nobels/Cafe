@@ -1,21 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 import AboutFood from '../../components/AboutFood/AboutFood'
 import styles from './aboutPage.module.css'
 function AboutPage()
 {
-    const [data, setData] = useState([])
-    useEffect(() =>
-    {
-        fetch(`https://63d78ffe5c4274b136f6a651.mockapi.io/items`)
-        .then((res) =>
-        {
-            return res.json();
-            }).then((json) =>
-            {
-                console.log(json[1]);
-                setData(json)
-            })
-    }, [])
+    const data = useSelector(s => s.getAbout)
+    console.log(data);
   
   return (
         <div className={styles.page}>

@@ -6,23 +6,12 @@ import Calculator from '../../components/Calculator/Calculator'
 import Food from '../../components/Food/Food'
 import { addToCart, clearCart, decrementCart, increaseCart, removeCart } from '../../redux/actions/action'
 import classes from './homePage.module.css'
-
+import Modal from '../../components/Modal/Modal'
 
 function HomePage()
 {   
-    const [data, setData] = useState([])
-    useEffect(() =>
-    {
-        fetch(`https://63d78ffe5c4274b136f6a651.mockapi.io/items`)
-        .then((res) =>
-        {
-            return res.json();
-            }).then((json) =>
-            {
-                console.log(json[1]);
-                setData(json)
-            })
-    }, [])
+    const data = useSelector(s => s.getAbout)
+    const [soms, setSoms] = useState(0)
     
     const categories = ['Завтраки','Блюда','Напитки', 'Десерты']
     const dispatch = useDispatch();
@@ -30,7 +19,6 @@ function HomePage()
     let totalSumma = 0;
     const [calc, setCalc] = useState(false);
     const [category, setCategory] = useState(1)
-
     const data1 = useSelector((s)=>
     {
         const transformedCartItems = [];
@@ -51,8 +39,7 @@ function HomePage()
     return (
         <>
             {
-                calc ? <Calculator totalSumma={totalSumma} calc={calc} setCalc={setCalc} />
-                    :
+                
                     <div className={classes.home}>
                     <div className={classes.filter}>      
                         <ul>
@@ -68,18 +55,40 @@ function HomePage()
                     <h2 id="basket" className={classes.title}>Корзина</h2>
                     <div className={classes.basket}>
                         {
-                            totalSumma == 0 ? <p>корзина пуста</p> :
-                            data1.map(el => <Basket key={el.product_id} product={el} />)
+                            totalSumma == 0 ? <p>корзина пуста</p>
+                            : <div>
+                                <div className={classes.tableTitle}>
+                                    <h3>Наименование:</h3>
+                                    <div className={classes.tableLeft}>
+                                        <p>колличество:</p>
+                                        <p>цена:</p>
+                                        <p>сумма:</p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                    {data1.map(el => <Basket key={el.product_id} product={el} />)}
+                            </div>
                         }
-                    </div>
+                        </div>
                     <div className={classes.cassa}>
                         <h2>Всего: {count == 0 ? 0 : count} штук</h2>
+                        {
+                            totalSumma > 0 &&
+                            <div className={classes.input}>
+                                <h2>Оплата:</h2>
+                                <input placeholder='0' type="number" value={soms > 0 ? soms : ''} onChange={(e) => setSoms(e.target.value)} />
+                            </div>
+                        }
                         <h2>Сумма заказа: {totalSumma} сом</h2>
-                        <div className={classes.actions}>
-                            
-                            <button className={classes.reset} onClick={()=>dispatch(clearCart())}>Сбросить</button>
-                            <button disabled={totalSumma <= 0 ? true : false} onClick={()=>setCalc(!calc)}>Оплатить</button>
-                        </div >
+                        
+                           <div className={classes.actions}>
+                                <button className={classes.reset} onClick={() => dispatch(clearCart())}>Сбросить</button>
+                                <button disabled={ (totalSumma > 0 && totalSumma <= soms) ? false : true} onClick={()=>setCalc(!calc)}>Оплатить</button>
+                            </div>
+                                
+                        {
+                            calc && <Modal sum={totalSumma} cashBack={soms - totalSumma} setCalc={setCalc} setSoms={setSoms} />
+                        }
                     </div>
                 </div>
             }
