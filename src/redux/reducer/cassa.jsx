@@ -33,7 +33,6 @@ export default (state = initialState, action) =>
             };
         case INCREASE_COUNT:
             const selectedCartItemAppend = state.items[action.pid];
-            console.log(selectedCartItemAppend);
             const updatedCartItemsAppend = new CartItem(
                 selectedCartItemAppend.quantity + 1,
                 selectedCartItemAppend.productPrice,

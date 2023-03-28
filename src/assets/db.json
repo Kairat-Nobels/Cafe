@@ -12,215 +12,215 @@
         {
             "id": 2,
             "price": 150,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Блины представляют собой круглые жаренные тонкие сдобные лепешки, приготовленные из жидкого теста. Употребляется данное блюдо как само по себе, так и с дополнением различными начинками или используемое, как ингредиент других блюд, например, пирога курника, блинного торта, закуски в виде фаршированных мешочков из блинов.",
             "title": "Блинчики",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVzCLUT-HoJvldC6KfiApPn4_YNJXg0CRk-8P1_E2fpN0ONfrHvw0YONMk_PjFtBJpfwAJbiVI5MdJ7WSI2rdgTuQgUWJMO7sXmgBKo_VZjtV0X85ID742pI3N6DCf0gsXuOAOAzevW2ucLnREnMgYLTITycLkX7MUXvIpYfuQWu7aQV1y547WyvXY/s320/Rectangle%206%20(1).png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 230,
+            "inner": "мука, яйца, молоко, соль, сахар"
         },
         {
             "id": 3,
             "price": 120,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Оладьи похожи на блинчики, только очень пышные, или, еще вернее - на американские блинчики, но пожирнее, поскольку жарят их не на сухой сковороде, а на масле. Пышность оладьям придает сода, дрожжи или разрыхлитель. Их заводят на молоке, кефире, сметане",
             "title": "Оладьи",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigq9FbLmfxy1_wrNMpEomPLr1lfz0gzHl3SFK8QD7mmtmR3CGhWZFcOHkWqrRI2gRYbDpn3GcD6mKI44-sFJ2r8j1e1F2NZzj7FjIexRQvCzC6PfBuSzHEGe0c8VZpBBsil54JstRSltrcC9hc56oaTIwn8W6fki2ckSL_2ieU2d1nPgZ52LDHN0Ip/s320/Rectangle%207%20(1).png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 230,
+            "inner": "мука, яйца, молоко, соль, сахар, разрыхлитель"
         },
         {
             "id": 4,
             "price": 90,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Ароматный и густой суп-пюре, приготовленный из спелой тыквы с добавлением оливкового масла. Отличается деликатным вкусом. Подогрейте и приправьте миндалем, тыквенными семечками или свежемолотым перцем по вкусу.",
             "title": "Суп из тыквы",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2umPZtIA638Hqzeaz51fOP8ZgZsYCnKA03VPqNV2Wr7NSLFBqbGHWqXNY7bthrXvkHJKVQCO5xdSdEr9R6ZupgpuiTTijbtGzATntQOaLktFX8kO4z8fvdr_f_5fCHA2Ne1jFj85YfHE6tsKLIMVDftbzcppBoxlpVVLrTTxCWj4DXN-EXZkMkbQ7/s320/Rectangle%203%20(1).png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 230,
+            "inner": "тыква, лук, молоко, масло сливочное, приправа, петрушка"
         },
         {
             "id": 5,
             "price": 100,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Вкусный и сытный суп из чечевицы. Богатая и изобретательная ближневосточная кухня подарила гурманам множество блюд, ставшими популярными во всем мире. Одно из таких блюд- чечевичный суп с особенным и неповторимым вкусом.",
             "title": "Чечевичный Суп",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjA_WAARk99gRQC3o3hZG7jDJWhcf6Y6NaSctmknJ6ZRqk8rN6jseWYfVjws6mN3sIav8ATcv0qZsaMFYIz1pzyxlUA4muvyFonzqt23rGNjpGHBYnitXxKhWmSAp0DwwGxLAYkUO076FnEWI7q26fdylUJiRRFWdFLtf_0X-q627IdxNMceO90GWr/s320/Rectangle%202%20(1).png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 220,
+            "inner": "чечевица, вода, лук, морковь, зелень кинзы"
         },
         {
             "id": 6,
             "price": 150,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Ягодный микс – это замечательный ингредиент для здорового завтрака. Для сбалансированного диетического питания замечательно подойдут каши, смузи, натуральные коктейли с кусочками настоящих спелых лесных ягод. Для активных занятий спортом и поддержания здорового тела обязательно принимать в пищу комплекс растительных и животных белков.",
             "title": "Ягодный завтрак",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_TpeyZwJdN-M4HSMB7z9pFx0c2TCe9VnfoV5nZcdJSKfsgX6PnDrg95O1u6D9BNVlGf9w8VVUz52wO2d1ntBy_QW__5dNdY9KEursxgN6XaRTy6NbaiT4p2N_wW7q7aL2wFB0Jq0acSg8WqD4sQ8BlyM9CmD-zAeK7F2kJaxMQ3BFnZH2EhR1Q9qD/s320/Rectangle%205%20(1).png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 220,
+            "inner": "ягоды, йогурт, вафли"
             }
         ],
         [
         {
             "id": 7,
             "price": 220,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eaque fuga magnam iure. Tempore eveniet quis itaque recusandae, aliquam totam soluta neque labore. Alias eaque optio quas aliquam maiores?",
+            "description": "Мясо лосося содержит большое количество белка и «полезного» жира (то есть, ненасыщенных кислот, положительно влияющих на уровень жира в крови). Жир, содержащийся в лососе, разжижает кровь, подобно аспирину и защищает артерии.",
             "title": "Лосось",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgskegTjLRpITq3b6rPZnikKw7Sfta9FwxxmCLsw4sAuByPuEgtFgfh3xg6k2JYrvg5Zc852KUmz1HOSFa1vLFpRYyjXjYUX_vWQckokbVakS-uglu3SRHiAwN9Pgi_RldK7_EmB83sMXg6Lifld6Id4qfTJvm5xFPVapItwGdBysJJzUN1fIQneoDh/s320/Rectangle%204.png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 220,
+            "inner": "лосось, чери, лимон, салат"
         },
         {
             "id": 8,
             "price": 180,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Пышные котлеты отличаются невероятной сочностью и аппетитным ароматом. Приготовлены по домашнему рецепту из отборного охлажденного мяса — говядины и свинины — с добавлением щепотки соли и душистого черного перца и подрумянены до золотистого цвета. Насладитесь натуральным мясным вкусом, дополнив котлеты пикантным томатным соусом.",
             "title": "Котлетки",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw3GdFRmBrX9-15NyImGreAKnZE6_aLxo7s3Z7nnpNOnppXCcLz4RQopGBwwW8gUMTbhX3awNd9uvqiHEdmnxoH37NKh_1Ej1pqmeZ0uDM_Tori2vhPK4aavqkL_efgvwmjSgoxgrsAPFWA-zy57Wov3jyAlGYn5C9XqHu8_Kyy4_cEoMmRyYOdkLo/s320/Rectangle%206.png",
-            "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "weight": 290,
+            "inner": "мясо, лук, хлеб, яйцо, соль, перец"
         },
         {
             "id": 9,
             "price": 220,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Плов — блюдо восточной кухни, основу которого составляет варёный рис. Отличительным свойством плова является его рассыпчатость, достигаемая соблюдением технологии приготовления риса и добавлением в плов животного или растительного жира, препятствующего слипанию крупинок.",
             "title": "Плов",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXkSB-cEvEe7x7V5A7Krih7FpmQwtoEuzfviJZB5Vgt7waIoQg-fsw0J6Xnybw3RRmWdIQnreVTjGGWKwI4sXXJXakWMCMilyc0RVO5idjbt6h2FiI430_wwKXrq_iCz3880xCop556a9f44lcSckfruthilzhDlE7vM1oaVMdHRY7qwBuFOXeTLpG/s320/Rectangle%207.png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "рис, мясо, лук, морковь, масло, чеснок"
         },
         {
             "id": 10,
             "price": 150,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Блюдо сытное и питательное, белковое. Отличное решение для постных дней. Существует несколько видов чечевицы: зелёная, красная, коричневая и черная. Наиболее доступными и распространёнными являются зелёная и красная чечевица.",
             "title": "Чечевица",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUELut4Ri0oJ8xNfUswx8ecUIfX2nymQy302irhdAe818WcmFcGuVHKPgFkDGaNf2BCbZtt4PrSDB6W9djIso-zvsRu6nUayYvc7FiXtJlrLgWxSfSvgjuKJrqjGVQDQePBx8dDhr05w2NvzNBtO3lxjrHWL2mImIzdD0AtqwVpZV8wOzQaM_yLi1e/s320/Rectangle%203.png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "чечевица, лук, паста,соль, шампиньоны"
         },
         {
             "id": 11,
             "price": 220,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Куриным филе обычно называют белое мясо куриной грудки, очищенное от кожи, хрящей и костей. Куриное филе считается самым диетическим мясом из всей курицы, благодаря наименьшему количеству жиров и пищевых волокон.",
             "title": "Куринное филе",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVLQuRPQUUCvtOH1_pcjZbi_NGJDOnNts7e0ntx4GkAeMc2pn7cwJgfliMvCNeeFgQd7NyR-k0M5qBTKBWFHTJia1Mk6t4FSH-kRt1G8pLW6pjkyYZK3uJ9kwJc8rgVFuPI3h71KLmH9zoXmVvRvFDC4oBmlP2u0Yp7Y6hVmtfR2fuq8qLGEBqMg_r/s320/Rectangle%202.png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "куринное филе, яйцо, помидор, сливки"
         },
         {
             "id": 12,
             "price": 180,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Итальянские макаронные изделия, отдельный вид пасты в виде длинных тонких палочек с круглым сечением и диаметром 1,5-2 мм, а длиной более 15 см. Изготавливаются из твердых сортов пшеницы. Спагетт, какими мы знаем их сегодня, появились в итальянском Неаполе. Их название пошло от итальянского слова «spago», что переводится как «шпагат».",
             "title": "Спагетти",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNXjarEWvfcEqpwJ0TLLpuqbwVB39c7z-Bv6D8C3iiIc-JH4pekbTcpUcBxXLiiYSjt0hM_xhgyXRlpVO3-FQEsrKWbZIVJRbl90SOv_kZro3MrN_UV7KbxfDKOzTXn9IoIHAFinEArQWuttE-M4EE_KzMRzXw4ffAiZXSQPlxVkU-emC3mgjrex7Q/s320/Rectangle%205.png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "Спагетти, паста, лук, соль, сахар, масло"
             }
         ],
         [
         {
             "id": 13,
             "price": 30,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eaque fuga magnam iure. Tempore eveniet quis itaque recusandae, aliquam totam soluta neque labore. Alias eaque optio quas aliquam maiores?",
+            "description": "Прозрачная жидкость без цвета, вкуса и запаха, которая состоит из двух атомов водорода и одного кислорода. Меняет состояние в зависимости от температуры:замерзает или испаряется. Имеет ключевое значение для жизни человека. Потеря организмом более 10% жидкости приводит к летальному исходу.",
             "title": "Вода",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_G5m0xZ21tk7shcnqLHphxWlcrIlCdaJM8jINGOCu1qfTigNXAgqwLnu-Pu4e2HHlLAzT2EQGPDWXAqL4Y7QzeQ-BX0fll1CjxtZiOLt7O42sPngpvkHg7bR4BZKWy0ZtZ2F0-RmN1dArsZz0GoKGxFlUG_03F-kwvECOXcI4SPSbfpmQJMD0uuAB/s320/Rectangle%204%20(2).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "вода"
         },
         {
             "id": 14,
             "price": 60,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Горячий чай с мёдом обволакивает горло, и полезные вещества убивают все вредные вещества. Благодаря большому количеству различных химических соединений, мёд может оказывать даже обезболивающий эффект и стимулировать иммунную систему намного лучше чем какие-либо таблетки.",
             "title": "Чай с мёдом",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGl6D8DFGASu4WvSI7XXwGqYxsuv4jMOgYpPYlCGfip_k_IL9Rvm89Kv5IDxDK53cmt1y4Gt9eXHUPhrZcP59SAifcjNMw_Ol84mmdoHPddYjNKL7ukHz1rQscsHmL1SOoiAEovwS7OJ2C6P6Q9wo8KSLc6_t_ah1y65nbxSOC4LS0MLf7Rc27lxtg/s320/Rectangle%206%20(2).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "чай, мёд"
         },
         {
             "id": 15,
             "price": 80,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Кофе - один из самых популярных и древних напитков на земном шаре. Миллионы людей начинают свой день с чашечки кофе. С молоком, с сахаром, с холодной водой, с лимоном и даже с солью… Его необыкновенный вкус и аромат порождает настоящую кофеманию. Кофе — это больше, чем напиток.",
             "title": "Кофе",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj871uPd4FL4fWx9_BdDfKPjRzq2IE_v7G-03PnsjWK65fqk2YPZxzNeWcMp0fzgMEYsO9fX00hq3nSDjrQHJWYFfPSWxItGsW5G9hb2JuuuRAsfRxe1_sxeO52k7DfouQd5zFXWPnN3jh00vuHGAPFFOUt5cnZcvAAz2cKNAKtINXE0xszVDtUI1En/s320/Rectangle%203%20(2).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "кофе, сливки"
         },
         {
             "id": 16,
             "price": 80,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Кола - тип газированных безалкогольных напитков с добавлением натуральных или искусственных ароматизаторов — ванили, корицы, цитрусовых масел и других ароматизаторов.",
             "title": "Кола",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizPxZbDurA6NsOGRqk5x7o2iFO4bwrP-AkG70A_uFjm8Yhl_1xCi-uTyIb8XYIKikaopIN3I-nDe8GAWFF95xHkWuD9qEMstcE9zyprb-bWT_W9tcEk7iIEcpiGpj4HyxGwyu65heoPo1GYZ_s5Hx162PHXGpZO4M7KifucGUhyn1S3fklz78d6vGx/s320/Rectangle%202%20(2).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "газировка"
         },
         {
             "id": 17,
             "price": 150,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Смузи - густой напиток в виде смешанных в блендере или миксере ягод, фруктов или овощей (обычно одного вида) с возможным добавлением молока, сока, льда, мороженого, растительного масла и т. д.",
             "title": "Фруктовый Смузи",
             "img": "https://www.chefmarket.ru/blog/wp-content/uploads/2021/04/40549455_m-2000x1200.jpg",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "сливки, бананы, фрукты"
         },
         {
             "id": 18,
             "price": 120,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Компот - десертный напиток из фруктов или ягод, либо отвар фруктов в сиропе, а также смесь сухофруктов или сушёных ягод и фруктов, либо фруктовые или ягодные консервы.",
             "title": "Компот",
             "img": "https://kartinkin.net/uploads/posts/2022-07/1657671107_34-kartinkin-net-p-kartinki-s-kompotom-35.jpg",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "вода, сущенные фрукты, сахар"
         }
         ],
         [
         {
             "id": 19,
             "price": 30,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eaque fuga magnam iure. Tempore eveniet quis itaque recusandae, aliquam totam soluta neque labore. Alias eaque optio quas aliquam maiores?",
+            "description": "Торт – сладкий пирог, обычно состоящий из нескольких слоев (коржей и кремовых или джемовых прослоек). Торт – центральное десертное блюдо многих праздничных событий: свадебный торт, именинный торт. Приготовление и украшение торта всегда является предметом особой заботы поваров и домашних кулинаров.",
             "title": "Cake",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim05vE94WABJnUvF4e2DTa2hpPcjH6l1m1ylgrv8i5EdYBYRTz3-_JLmmJn95l08o9p7AvW5q0NiZfWsc2zANdgVsQmAfwucyU1KXYdkegFD1kK0LdhM9IU7BW_KKrP0zfMUqHeR4BjVFkzF9M75U3U41gQ9_kyOrZ7Itjnf60Vdi7cRrrc3oInqMv/s320/Rectangle%204%20(3).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "яйца, сыр, сливки, масло, сахар, какао"
         },
         {
             "id": 20,
             "price": 60,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Чизкейк -  блюдо европейской и американской кухни, представляющее собой сыросодержащий десерт от творожной запеканки до суфле.  Чизкейк -  это восхитительный и необычайно популярный десерт. Многие любят его за нежный и легкий вкус. Он не слишком сладкий, но невероятно приятный.",
             "title": "Чискейк",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIGiK3M6HRLSBKF996g37MLDzLPKvwTU6Ii7IGoATQVOawXF8a18k_7ZkkUfuJzNKUN6dIT8NXvMZ2eKglrTAUgjIkYy8yR0TmmyYifju9eO0VzBYMhjHz8n0sp3nS5TZ5A7lPDP_W3DPjghJYz6UgBRiPozFIEYQ9cl86yHqMR-kitkWVsQKpWrA8/s320/Rectangle%203%20(3).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "яйца, сыр, сливки, масло"
         },
         {
             "id": 21,
             "price": 80,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Брауни – очень известные американские пирожные с ярким и насыщенным шоколадным вкусом, плотной корочкой и влажной, слегка тягучей консистенцией внутри. Брауни можно подавать как теплым, разрезав его на квадратные пирожные, так и хорошо охлажденным.",
             "title": "Брауни",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA3pDO6Go0asfqGRPpPvWWsvV7rGYr2dNhymQ-hVV7vBQuRHPIy7hEJ8DXjf9ahiDHcucLodHv-sebJpo1-sHYPNHnInxTq7c4xAv107ufR-bSDKAuSKmKMqcRWzNyzz7vrhCwanNqdsU9npOBP6SyIFfE789bPkKebW7Vzg6aFlUTUulgtxcFSiE4/s320/Rectangle%202%20(3).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "сливочное масло, какао парашок, шоколад, сахар, яйца, мука, соль"
         },
         {
             "id": 22,
             "price": 80,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Макарон - кондитерское изделие, бисквитное печенье, изготовленное, как правило, из миндаля (основной ингредиент), а также может быть из других орехов или кокоса, иногда ароматизированное мёдом, ванилью или специями, с добавлением пищевого красителя, варенья, джема или шоколадной глазури.",
             "title": "Macaroon",
             "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbexRE77z95Rh03aILwQavqsR9CM6vGQeFItVGTripntWYKO69uyty5Kz1_HwG7xHuS5Dljjlp2w-oncRM1pWJFjftx4m72L8Ea-qcA5-UgAKs6A-6O-vW5IANh-el4w0buv4vTHGF0E9O7WtlV3lzHhawOYq3o3XSTEbUduRcn8PV7VriFwy5Lk9O/s320/Rectangle%206%20(3).png",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "сахар, белок, мука, сахарная пудра"
         },
         {
             "id": 23,
             "price": 150,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Сан-Себастьян — это уникальное кондитерское изделие, придуманное во всемирно известном ресторане La Viña в городе Сан-Себастьян (Страна Басков, Испания). В отличии от своих американских собратьев баскский чизкейк не имеет песочной основы, да и основы в принципе.",
             "title": "Сан Себастьян",
             "img": "http://static.tildacdn.com/tild6639-3734-4563-b237-336130656666/KOS_2424_2.jpg",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "творожный сыр, яйца, сахар, сливки, мука, соль"
         },
         {
             "id": 24,
             "price": 120,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid earum iusto suscipit quam impedit labore at debitis reiciendis rem hic, cupiditate quis itaque vero tenetur officia. Possimus, quia quod!",
+            "description": "Моро́женое — пищевой продукт-десерт, представляющий собой замороженную в процессе непрерывного взбивания массу, содержащую в основе своей питательные, вкусовые, ароматические и эмульгирующие вещества. К мороженому нередко относят также фруктовый лёд, получаемый простым замораживанием фруктово-ягодных соков и пюре.",
             "title": "Мороженое",
             "img": "https://o-tendencii.com/uploads/posts/2022-02/1645661859_6-o-tendencii-com-p-morozhenoe-v-vazochke-foto-6.jpg",
             "weight": 250,
-            "inner": "ingredients, agg, sugar"
+            "inner": "сливки, молоко, сахар, масло, яйцо, ваниль"
         }
         ]
         

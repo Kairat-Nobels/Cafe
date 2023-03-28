@@ -1,13 +1,16 @@
 .foodCard{
-    width: 300px;
+    width: 310px;
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 .foodCard .foodImg{
     width: 100%;
-    height: 180px;
+    height: 200px;
     overflow: hidden;
 }
 .foodCard .foodImg img{
@@ -15,7 +18,7 @@
     height: 100%;
 }
 .foodCard .foodTitle{
-    margin: 15px auto 5px;
+    margin: 15px auto 15px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -29,9 +32,9 @@
 }
 .foodTitle p{
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-
+    min-width: 70px;
+    font-size: 14px;
+    line-height: 16px;
     color: #FFFFFF;
 }
 .foodCard > p{
@@ -49,7 +52,12 @@
 }
 .foodCard .price{
     font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
     color: #FFFFFF;
+}
+@media (max-width: 620px) {
+    .foodTitle h3 {
+        font-size: 20px;
+    }
 }

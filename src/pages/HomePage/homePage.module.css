@@ -43,8 +43,6 @@
     margin-top: 20px;
     text-align: center;
 }
-/* cassa */
-
 .cassa{
     width: 90%;
     margin: 20px auto 0;
@@ -76,7 +74,21 @@
     display: flex;
     gap: 15px;
     align-items: center;
-
+    position: relative;
+}
+@media (max-width: 760px) {
+    .cassa .summa{
+        margin-top: 30px;
+    }
+}
+.cassa .input p{
+    font-size: 18px;
+    color: #d41414;
+    font-weight: 600;
+    position: absolute;
+    top: 60px;
+    width: 360px;
+    left: -20px;
 }
 .cassa .input span{
     font-weight: 600;
@@ -127,6 +139,8 @@
 }
 
 .filter ul{
+    padding-top: 20px;
+
     list-style-type: none;
     max-width: 840px;
     margin: -20px auto 20px;
@@ -162,24 +176,18 @@
     background-color: darken(#f9f9f9, 5%);
 }
 .filter  li.CategoryActive {
-    color: #858585;
-    border-bottom: 1px solid #232323;
+    background: #757E85;
+    color: #f2f2f2;
+    border-radius: 20px;
+    font-weight: 600;
 }
-@media (max-width: 500px) {
-   .filter{
-        width: 100%;
-        overflow: scroll;
-    }
-    .filter ul{
-        width: 600px;
-    }
-}
+
 
 .tableTitle{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 .tableLeft {
     display: flex;
@@ -191,4 +199,57 @@
 }
 .tableLeft p{
     width: 100px;
+}
+
+@media (max-width: 767px) {
+    .tableTitle {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 700px) {
+    .tableLeft p{
+        width:fit-content;
+        font-size: 16px;
+
+    }
+    .tableTitle h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .tableLeft{
+        margin-right: 30px;
+
+    }
+    .tableLeft p:last-child{
+        display: none;
+    }
+}
+@media (max-width: 740px) {
+    .foods{
+        gap: 40px;
+    }
+}
+@media (max-width: 570px) {
+    .tableTitle {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+   .filter{
+        width: 100%;
+        overflow: scroll;
+    }
+    .filter ul{
+        width: 600px;
+    }
+    .filter ul li{
+        font-size: 18px;
+    }
+    .cassa h2{
+        font-size: 20px;
+    }
+    .cassa{
+        padding: 0;
+        padding-top: 20px;
+    }
 }

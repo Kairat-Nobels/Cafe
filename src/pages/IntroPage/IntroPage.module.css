@@ -69,3 +69,42 @@
     line-height: 28px;
     color: #545454;
 }
+@media (max-width: 1110px) {
+    .green {
+        width: 25%;
+    }
+    .text {
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    .green {
+        display: none;
+    }
+    .text {
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .text h1{
+        font-size: 38px;
+        line-height: 42px;
+        font-weight: 500px;
+    }
+    .text p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .contacts {
+        width: 300px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+}
+@media (max-width: 470px) {
+    .text {
+        text-align: center;
+    }
+}
+

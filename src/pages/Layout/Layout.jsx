@@ -5,6 +5,7 @@ import blackBasketSvg from '../../assets/images/basketDark.svg'
 import { useDispatch, useSelector } from "react-redux"
 import { useEffect } from "react"
 import { getAbout } from "../../redux/actions/about"
+
 function Layout()
 {
     let count = 0;
@@ -28,13 +29,14 @@ function Layout()
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(getAbout())
-    },[] )
+    }, [])
+    
     return (    
         <div className="container">
             <nav className={styles.navbar}>
                 <div className={styles.logo}>
                     <NavLink to='/'><img src={logo} alt="logo" /></NavLink>
-                </div >
+                </div>
                 <ul>
                     <li><NavLink to='/menu' className={({ isActive }) => ( isActive ? styles.active : '' )}>Menu</NavLink></li>
                     <li><NavLink to='/about' className={({ isActive }) => ( isActive ? styles.active : '' )}>About Food</NavLink></li>
@@ -43,7 +45,7 @@ function Layout()
             </nav>
             <div className="outlet">
                 <Outlet />
-            </div >
+            </div>
         </div>
     ) 
 }

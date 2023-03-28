@@ -1,9 +1,9 @@
 import watsapp from '../../assets/images/watsapp.svg'
 import insta from '../../assets/images/insta.svg'
 import styles from './IntroPage.module.css'
+
 function IntroPage()
 {
-    
     return (
         <div className={styles.IntroPage}>
             <div className={styles.text}>

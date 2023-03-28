@@ -32,7 +32,8 @@ function Basket({ product }) {
                 <p className={styles.basketPrice}>{product.price} сом</p>
                 <p className={styles.basketPrice}>{product.price * product.count} сом</p>
                 <button className={styles.remove} onClick={() => dispatch(removeCart(product.product_id))}>
-                    <img src={imgTrash} width='25' height={'auto'} alt='trash' /></button>
+                    <img src={imgTrash} width='25' height={'auto'} alt='trash' />
+                </button>
             </div>
         </div>
     )

@@ -1,10 +1,11 @@
-.navbar{
+.navbar {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar ul{
+
+.navbar ul {
     width: 300px;
     display: flex;
     list-style-type: none;
@@ -12,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar ul a {
     display: inline-block;
     font-weight: 600;
@@ -23,33 +25,39 @@
     font-family: 'Edu NSW ACT Foundation', Arial, Helvetica, sans-serif;
     transition: .3s;
 }
+
 .navbar ul a:hover {
-    color: #3b44e7;   
+    color: #3b44e7;
     transform: scale(1.102);
 }
-.navbar ul .active{
+
+.navbar ul .active {
     color: #3b44e7;
     border-bottom: 3px solid #3b44e7;
 }
+
 .navbar ul .active:hover {
     color: #3b44e7;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
-.logo img{
+
+.logo img {
     width: 100%;
 }
-.navbar .about:active body{
+
+.navbar .about:active body {
     background: red;
 }
 
-.basketIcon{
+.basketIcon {
     text-decoration: none;
     position: relative;
 }
-.basketIcon span{
+
+.basketIcon span {
     position: absolute;
     top: -12px;
     right: -12px;
@@ -66,4 +74,44 @@
     font-size: 18px;
     line-height: 20px;
     background: #646cff;
+}
+
+@media (max-width: 570px) {
+    .navbar ul {
+        width: auto;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .logo {
+        width: 70px;
+    }
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar ul a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .basketIcon {
+        width: 30px;
+    }
+
+    .basketIcon img {
+        width: 100%;
+    }
+
+    .basketIcon span {
+        width: 24px;
+        height: 24px;
+        top: -10px;
+        right: -10px;
+        font-size: 16px;
+    }
 }

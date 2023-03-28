@@ -1,5 +1,5 @@
-import React from 'react'
 import styles from './aboutFood.module.css'
+
 function AboutFood({ product })
 {
     return (

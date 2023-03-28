@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux'
 import { clearCart } from '../../redux/actions/action'
 import styles from './Modal.module.css'
 import succes from '../../assets/images/sucsecc.png'
+
 function Modal({ sum, cashBack, setCalc, setSoms })
 {
     const dispatch = useDispatch()
