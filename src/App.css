@@ -1,32 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
 }
-html, body{
+
+html,
+body {
     font-family: 'Montserrat', Arial, "Helvetica Neue", Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
-.App{
+
+.App {
     max-width: 1400px;
     margin: 0 auto;
 }
-body{
+
+body {
     background: #E8EEF2;
 }
-.container{
+
+.container {
     width: 1240px;
     margin: 0 auto;
 }
+
 @media (max-width: 1280px) {
-    .container{
+    .container {
         padding: 0 20px;
         width: 100%;
     }
 }
+
 @media (max-width: 440px) {
-    .container{
+    .container {
         padding: 0 14px;
+    }
+}
+
+@media (max-width: 410px) {
+    .container {
+        padding: 0 10px;
     }
 }

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 .spinner {
+	width: 80%;
+	margin: 0 auto;
 	height: 500px;
 }
 

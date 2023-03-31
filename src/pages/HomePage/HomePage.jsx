@@ -7,13 +7,14 @@ import { clearCart} from '../../redux/actions/action'
 import classes from './homePage.module.css'
 import Modal from '../../components/Modal/Modal'
 import Spinner from '../../components/Spinner/Spinner'
+import { current } from '@reduxjs/toolkit'
 
 function HomePage()
 {   
     const data = useSelector(s => s.getAbout.data)
     const load = useSelector(s => s.getAbout.load)
     const [soms, setSoms] = useState(0)
-    
+    const [orders, setOrders] = useState([{}])
     const categories = ['Завтраки','Блюда','Напитки', 'Десерты']
     const dispatch = useDispatch();
     let count = 0;
@@ -37,6 +38,30 @@ function HomePage()
         totalSumma = s.basket.totalAmount
             return transformedCartItems;
     })
+
+    const handlePay = () =>
+    {
+        const today = new Date();
+        // получаем дату и время
+        const now = today.toLocaleString();
+        const newOrder = {
+            count: count,
+            totalSumma: totalSumma,
+            date: now
+        }
+        orders.push(newOrder);
+        setOrders(orders)
+        console.log(orders)
+        const result = JSON.stringify(orders)
+        window.localStorage.setItem('orders', result);
+        setCalc(!calc)
+    }
+    // orders
+    useEffect(() =>
+    {
+        setOrders(JSON.parse(window.localStorage.getItem('orders')) || []);
+    }, [])
+
     return (
         <>
             {
@@ -86,11 +111,11 @@ function HomePage()
                             }
                         </div>
                     }
-                    <h2 className={totalSumma>0 &&classes.summa}>Сумма заказа: {totalSumma} сом</h2>
+                    <h2 className={totalSumma>0 ? classes.summa : ''}>Сумма заказа: {totalSumma} сом</h2>
                         
                     <div className={classes.actions}>
                         <button disabled={totalSumma > 0 ? false : true} className={classes.reset} onClick={() => dispatch(clearCart())}>Сбросить</button>
-                        <button className={classes.pay} disabled={ (totalSumma > 0 && totalSumma <= soms) ? false : true} onClick={()=>setCalc(!calc)}>Оплатить</button>
+                        <button className={classes.pay} disabled={ (totalSumma > 0 && totalSumma <= soms) ? false : true} onClick={()=>handlePay()}>Оплатить</button>
                     </div>
                                 
                     {
