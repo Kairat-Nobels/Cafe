@@ -1,21 +1,56 @@
 import React, { useEffect, useState } from 'react'
-import Order from '../../components/Order/Order'
+import SortOrderDay from '../../components/SortOrderDay/SortOrderDay'
+import styles from './orderPage.module.css'
+import empty from '../../assets/images/empty.png'
+import { useNavigate } from 'react-router-dom'
+
 
 function OrderPage()
 {
     const [orders, setOrders] = useState([])
-    const [sort, setSort] = useState([])
+    let count = 0
+    let sum = 0;
+    orders.map(element => {
+        count += element.count
+        sum += element.totalSumma
+    });
     useEffect(() =>
     {
         setOrders(JSON.parse(window.localStorage.getItem('orders')) || [])
     }, [])
+    const sortedDatesByDay = [];
+    orders.forEach(o => {
+        const day = o.date.substring(0, 10);
+        const index = sortedDatesByDay.findIndex(item => item.day === day);
+                
+        if (index === -1) {
+            sortedDatesByDay.splice(sortedDatesByDay.length, 0, { day, data: [o] });
+        } else {
+            sortedDatesByDay[index].data.splice(sortedDatesByDay[index].data.length, 0, o);
+        }
+    })
+    const navigate = useNavigate()
+
     return (
-        <div>
+        <div className={styles.orderPage}>
+            <h1>История заказов</h1>
             {
                 orders.length > 0 ?
-                    orders.map((o, i) => <Order key={i} order={o} />)
-                    : <p>История заказов пустая</p>
+                    sortedDatesByDay.map((obj, i) => <SortOrderDay key={i} data={obj} />)
+                    :
+                    <div className={styles.empty}>
+                        <p className={styles.orderEmpty}>История заказов пустая</p>
+                        <div><img src={empty} alt="empty" /></div>
+                    </div>
             }
+            <div className={styles.total}>
+                <p>Итого продано: <span>{count}</span> штук</p>
+                <p>Итого сумма: <span>{sum}</span> сом</p>
+            </div>
+            <div className={styles.btns}>
+                <button onClick={()=> window.localStorage.setItem('orders', [])}>Очистить историю</button>
+                <button onClick={() => navigate(-1)}>Назад</button>
+            </div>
         </div>
     )
 }

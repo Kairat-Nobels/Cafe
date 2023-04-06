@@ -93,7 +93,9 @@
 }
 
 @media (max-width: 767px) {
-    .green {
+
+    .green,
+    .image {
         display: none;
     }
 
@@ -117,7 +119,7 @@
     .contacts {
         width: 300px;
         position: absolute;
-        bottom: 30px;
+        bottom: 60px;
         left: 30px;
     }
 }

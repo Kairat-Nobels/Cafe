@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
 import Basket from '../../components/Basket/Basket'
 import Food from '../../components/Food/Food'
 import { clearCart} from '../../redux/actions/action'
@@ -15,7 +14,7 @@ function HomePage()
     const load = useSelector(s => s.getAbout.load)
     const [soms, setSoms] = useState(0)
     const [orders, setOrders] = useState([{}])
-    const categories = ['Завтраки','Блюда','Напитки', 'Десерты']
+    const categories = ['Завтраки','Блюда','Напитки', 'Десерты', 'Салаты', 'Гарниры']
     const dispatch = useDispatch();
     let count = 0;
     let totalSumma = 0;
@@ -51,7 +50,6 @@ function HomePage()
         }
         orders.push(newOrder);
         setOrders(orders)
-        console.log(orders)
         const result = JSON.stringify(orders)
         window.localStorage.setItem('orders', result);
         setCalc(!calc)

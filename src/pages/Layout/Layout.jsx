@@ -42,8 +42,6 @@ function Layout()
                     <li><NavLink to='/about' className={({ isActive }) => ( isActive ? styles.active : '' )}>About Food</NavLink></li>
                 </ul>
                 <p className={styles.Link}><NavLink to='/order' className={({ isActive }) => ( isActive ? styles.active : '' )}>Orders</NavLink></p>
-
-                {/* <a className={styles.basketIcon} href="#basket"><img src={blackBasketSvg} alt="basket" /><span>{count}</span></a>   */}
             </nav>
             <div className="outlet">
                 <Outlet />
