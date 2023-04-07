@@ -1,7 +1,7 @@
+
 import { NavLink, Outlet } from "react-router-dom"
 import styles from './Layout.module.css'
 import logo from '../../assets/images/logo.svg'
-import blackBasketSvg from '../../assets/images/basketDark.svg'
 import { useDispatch, useSelector } from "react-redux"
 import { useEffect } from "react"
 import { getAbout } from "../../redux/actions/about"
@@ -49,5 +49,4 @@ function Layout()
         </div>
     ) 
 }
-
 export default Layout

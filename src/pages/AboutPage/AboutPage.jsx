@@ -28,7 +28,6 @@ function AboutPage()
                 }   
             </div>
             : <Spinner/>
-             
         }
         </>
     )

@@ -3,11 +3,16 @@ import SortOrderDay from '../../components/SortOrderDay/SortOrderDay'
 import styles from './orderPage.module.css'
 import empty from '../../assets/images/empty.png'
 import { useNavigate } from 'react-router-dom'
-
+import ScrollUpBtn from '../../components/ScrollUpBtn/ScrollUpBtn'
 
 function OrderPage()
 {
     const [orders, setOrders] = useState([])
+    const [scrollPos, setScrollPos] = useState(0)
+    window.addEventListener('scroll', () =>
+    {
+        setScrollPos(window.pageYOffset)
+    })
     let count = 0
     let sum = 0;
     orders.map(element => {
@@ -51,6 +56,9 @@ function OrderPage()
                 <button onClick={()=> window.localStorage.setItem('orders', [])}>Очистить историю</button>
                 <button onClick={() => navigate(-1)}>Назад</button>
             </div>
+            {
+                (scrollPos >= 100 && scrollPos <= (document.documentElement.clientHeight/2.5)) && <ScrollUpBtn /> 
+            }   
         </div>
     )
 }
