@@ -6,7 +6,6 @@ import { clearCart} from '../../redux/actions/action'
 import classes from './homePage.module.css'
 import Modal from '../../components/Modal/Modal'
 import Spinner from '../../components/Spinner/Spinner'
-import { current } from '@reduxjs/toolkit'
 
 function HomePage()
 {   
