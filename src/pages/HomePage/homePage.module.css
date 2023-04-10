@@ -157,9 +157,8 @@
 
 .filter ul {
     padding-top: 20px;
-
     list-style-type: none;
-    max-width: 840px;
+    min-width: 840px;
     margin: -20px auto 20px;
     display: flex;
     justify-content: space-around;
