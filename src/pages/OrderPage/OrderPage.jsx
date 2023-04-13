@@ -15,7 +15,8 @@ function OrderPage()
     })
     let count = 0
     let sum = 0;
-    orders.map(element => {
+    orders.map(element =>
+    {
         count += element.count
         sum += element.totalSumma
     });
@@ -24,10 +25,11 @@ function OrderPage()
         setOrders(JSON.parse(window.localStorage.getItem('orders')) || [])
     }, [])
     const sortedDatesByDay = [];
-    orders.forEach(o => {
+    orders.forEach(o =>
+    {
         const day = o.date.substring(0, 10);
         const index = sortedDatesByDay.findIndex(item => item.day === day);
-                
+
         if (index === -1) {
             sortedDatesByDay.splice(sortedDatesByDay.length, 0, { day, data: [o] });
         } else {
@@ -35,7 +37,11 @@ function OrderPage()
         }
     })
     const navigate = useNavigate()
-
+    const clearOrders = () =>
+    {
+        localStorage.removeItem('orders')
+        setOrders([])
+    }
     return (
         <div className={styles.orderPage}>
             <h1>История заказов</h1>
@@ -53,12 +59,12 @@ function OrderPage()
                 <p>Итого сумма: <span>{sum}</span> сом</p>
             </div>
             <div className={styles.btns}>
-                <button onClick={()=> window.localStorage.setItem('orders', [])}>Очистить историю</button>
+                <button onClick={clearOrders}>Очистить историю</button>
                 <button onClick={() => navigate(-1)}>Назад</button>
             </div>
             {
-                (scrollPos >= 100 && scrollPos <= (document.documentElement.clientHeight/2.5)) && <ScrollUpBtn /> 
-            }   
+                (scrollPos >= 100 && scrollPos <= (document.documentElement.clientHeight / 2.5)) && <ScrollUpBtn />
+            }
         </div>
     )
 }
